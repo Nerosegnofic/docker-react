@@ -24,6 +24,3 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/Learn from Gamil/i);
   expect(linkElement).toBeInTheDocument();
 });
-
-
-
